@@ -9,4 +9,7 @@ This Repo is used to collect applications for, and track the progress of, the CI
 3. We will review every application, and follow up if needed
 4. If we decide to review your CI/CD definition, we will infor you via the Issue and (if provided) the contact information
 
+### T&C's and Privacy
+
+Check out our [Terms and Conditions](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md) and the [Privacy Rules](https://github.com/CoderDave-org/CICD-Reviews/blob/main/Privacy.md)
 
