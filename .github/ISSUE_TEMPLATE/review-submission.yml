@@ -56,8 +56,10 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to our [Terms and Conditions](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md)
+      label: Privacy and T&Cs
+      description: By submitting this issue, you agree to our [Terms and Conditions](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md) and the [Privacy Rules](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md)
       options:
         - label: I agree with the T&Cs
+          required: true
+        - label: I agree with the Privacy Rules
           required: true
