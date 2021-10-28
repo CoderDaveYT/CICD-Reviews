@@ -25,3 +25,6 @@ You have the following rights:
 - If you have consented to the processing of your data, you may revoke that consent at any time, effective going forward.
 
 You may do so via email (see the contact section at the [CoderDave](https://coderdave.io) website) or direcly via the comments section in the Issue.
+
+## Amending this data protection policy
+We reserve the right to amend or supplement this policy at any time, as we see fit and in accordance with data protection law. Please consult this policy on a regular basis.
