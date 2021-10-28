@@ -61,9 +61,7 @@ body:
     id: notes
     attributes:
       label: Notes / Description
-      description: Anything else I should know?      
-    validations:
-      required: true
+      description: Anything else I should know?
   - type: checkboxes
     id: terms
     attributes:
