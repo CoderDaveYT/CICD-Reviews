@@ -45,7 +45,16 @@ body:
     id: link
     attributes:
       label: Workflow url
-      description: If your CI/CD workflow is publc, please paste here its link.    
+      description: If your CI/CD workflow is publc, please paste here its link.  
+  - type: checkboxes
+    id: videotype
+    attributes:
+      label: Video Type
+      description: What kind of video would you prefer your workflows to be reviewed in?
+      options:
+        - label: Recorded Video
+        - label: Live Streaming (CoderDave by himeself)
+        - label: Live Streaming (Coderdave and you as live guest)
   - type: textarea
     id: notes
     attributes:
