@@ -1,0 +1,63 @@
+name: Review Submission
+description: Submit an application for reviewing one of your CI CD workflow definition
+title: "[Review]: "
+labels: [triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this submission!
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Your name :)      
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: email, twitter, or instagram account
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform is you CI/CD definition for?
+      options:
+        - Azure Pipelines
+        - GitHub Actions
+        - Other (specify in the notes)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Is this a publicly available file or private?
+      multiple: false
+      options:
+        - Public (add the link below)
+        - Private (will follow up, contact details required)      
+  - type: input
+    id: link
+    attributes:
+      label: Workflow url
+      description: If your CI/CD workflow is publc, please paste here its link.    
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Description
+      description: Anything else I should know?      
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to our [Terms and Conditions](.TC.md)
+      options:
+        - label: I agree with the T&Cs
+          required: true
