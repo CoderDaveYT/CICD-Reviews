@@ -57,7 +57,7 @@ body:
     id: terms
     attributes:
       label: Privacy and T&Cs
-      description: By submitting this issue, you agree to our [Terms and Conditions](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md) and the [Privacy Rules](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md)
+      description: By submitting this issue, you agree to our [Terms and Conditions](https://github.com/CoderDave-org/CICD-Reviews/blob/main/TC.md) and the [Privacy Rules](https://github.com/CoderDave-org/CICD-Reviews/blob/main/Privacy.md)
       options:
         - label: I agree with the T&Cs
           required: true
